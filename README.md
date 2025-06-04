@@ -12,9 +12,9 @@ Don't forget to disable rdtscp in your qemu xml config like so:
 
 You can play with ticks if you want to:
 
-* Open kernel-patch-6.8.0-49.patch in text editor
+* Open kernel-patch-6.11.0-26.patch in text editor [Already Done in the patch]
 * Find handle_rdtsc function
-* Change **u64 fake_diff =  diff / 16;**
+* Change **u64 fake_diff =  diff / 16;** [Already Done in the patch]
 * 16 is a divider of actual difference in timestamp, you can increase and decrease it
 
 # Getting Started
