@@ -21,7 +21,7 @@ You can play with ticks if you want to:
 
 Run the bash script and everything will be done for you:
 
-* sudo bash kernel-patch-6.8.0-49.sh
+* sudo bash kernel-patch-6.11.0-26.sh
 
 # Applying ACS Override Patch
 
